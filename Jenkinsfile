@@ -27,7 +27,7 @@ pipeline{
     }
     post{
         always {
-            sh "tutaj jest email"
+            sh "echo 'tutaj jest email'"
         }
     }
 }
